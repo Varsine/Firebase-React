@@ -1,26 +1,59 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import "./App.css"
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import Navbar from "./components/layout/Navbar"
+import Dashboard from "./components/dashboard/Dashboard"
+import UserDetails from "./components/users/UserDetails"
+import SignIn from "./components/auth/SignIn"
+import SignUp from "./components/auth/SignUp"
+import CreateNewUser from "./components/users/CreateNewUser"
+import UpdateUser from "./components/users/UpdateUser"
+import {
+  UserIsAuthenticated,
+  UserIsNotAuthenticated,
+} from "./components/help component/auth"
+import NotFound from "./components/layout/NotFound"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <div>
+        <div>
+          <Navbar />
+        </div>
+
+        <Switch>
+          <Route
+            exact={true}
+            path="/"
+            component={UserIsAuthenticated(Dashboard)}
+          ></Route>
+          <Route
+            path="/user/:id"
+            component={UserIsAuthenticated(UserDetails)}
+          ></Route>
+          <Route
+            path="/update/:id"
+            component={UserIsAuthenticated(UpdateUser)}
+          ></Route>
+          <Route
+            path="/create"
+            component={UserIsAuthenticated(CreateNewUser)}
+          ></Route>
+          <Route
+            exact={true}
+            path="/signin"
+            component={UserIsNotAuthenticated(SignIn)}
+          ></Route>
+          <Route
+            path="/signup"
+            component={UserIsNotAuthenticated(SignUp)}
+          ></Route>
+          <Route path="*" component={NotFound}></Route>
+        </Switch>
+      </div>
+    </Router>
+  )
 }
 
-export default App;
+export default App

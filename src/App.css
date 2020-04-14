@@ -1,38 +1,125 @@
-.App {
+body {
+  background-color: #f2e6ff;
+}
+.user-profile {
+  background-color: #f2e6ff;
+}
+.users-form {
+  margin: 1% 15%;
+}
+.users-form h1 {
+  color: rgb(78, 75, 75);
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.users-form table {
+  width: 100%;
+}
+.users-form tr:nth-child(even) {
+  background-color: rgb(119, 110, 110);
+}
+.users-form tr:nth-child(odd) {
+  background-color: rgb(238, 232, 232);
+}
+.loding-img {
+  width: 10%;
+  margin-left: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.notification {
+  margin: 1% 10%;
+}
+.update-icon {
+  border: none;
+  background-color: rgb(238, 232, 232);
+}
+.update-icon:hover {
+  background-color: rgb(236, 208, 171);
+}
+.close-icon {
+  border: none;
+  background-color: rgb(238, 232, 232);
+}
+.close-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.close-icon:hover {
+  background-color: rgb(236, 208, 171);
+}
+.home-img {
+  width: 12%;
+}
+.user-img {
+  width: 30%;
+  display: block;
+}
+.userProfile-info {
+  border-style: inset;
+  font-size: 18px;
+  font-weight: 600;
+}
+.userUpdate-form {
+  margin: 2% 20%;
+}
+.not-found {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.not-found img {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  h1,
+  h2,
+  h5 {
+    font-size: 25px;
+  }
+  .users-form table {
+    width: 50%;
+    font-size: 12px;
+    margin: 1% 9%;
+  }
+  .brand-logo {
+    margin-left: -10%;
+  }
+  .close-icon img {
+    width: 20px;
+    height: 20px;
+  }
+  .update-icon img {
+    width: 20px;
+    height: 20px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.logout-btn {
+  background: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 426px) {
+  .users-form table {
+    font-size: 9px;
+    margin-left: -10%;
   }
-  to {
-    transform: rotate(360deg);
+  .close-icon img {
+    width: 10px;
+    height: 10px;
+  }
+  .update-icon img {
+    width: 10px;
+    height: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .users-form table {
+    font-size: 7px;
+    margin-left: -20%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .users-form table {
+    font-size: 9px;
+    margin-left: -20%;
   }
 }
