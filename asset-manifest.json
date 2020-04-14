@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/firebase-react/static/css/main.4c1d74e2.chunk.css",
+    "main.js": "/firebase-react/static/js/main.f3d11559.chunk.js",
+    "main.js.map": "/firebase-react/static/js/main.f3d11559.chunk.js.map",
+    "runtime-main.js": "/firebase-react/static/js/runtime-main.583fda1e.js",
+    "runtime-main.js.map": "/firebase-react/static/js/runtime-main.583fda1e.js.map",
+    "static/js/2.2c520e3f.chunk.js": "/firebase-react/static/js/2.2c520e3f.chunk.js",
+    "static/js/2.2c520e3f.chunk.js.map": "/firebase-react/static/js/2.2c520e3f.chunk.js.map",
+    "index.html": "/firebase-react/index.html",
+    "precache-manifest.673f0a7973d9e08343b3ec9062e36f2d.js": "/firebase-react/precache-manifest.673f0a7973d9e08343b3ec9062e36f2d.js",
+    "service-worker.js": "/firebase-react/service-worker.js",
+    "static/css/main.4c1d74e2.chunk.css.map": "/firebase-react/static/css/main.4c1d74e2.chunk.css.map",
+    "static/js/2.2c520e3f.chunk.js.LICENSE.txt": "/firebase-react/static/js/2.2c520e3f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.583fda1e.js",
+    "static/js/2.2c520e3f.chunk.js",
+    "static/css/main.4c1d74e2.chunk.css",
+    "static/js/main.f3d11559.chunk.js"
+  ]
+}
