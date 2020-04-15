@@ -14,7 +14,7 @@ import {
   UserIsAuthenticated,
   UserIsNotAuthenticated,
 } from "./components/help component/auth"
-import NotFound from "./components/layout/NotFound"
+//import NotFound from "./components/layout/NotFound"
 
 function App() {
   return (
@@ -51,7 +51,7 @@ function App() {
             path="/signup"
             component={UserIsNotAuthenticated(SignUp)}
           ></Route>
-          <Route path="*" component={NotFound}></Route>
+          {/* <Route path="*" component={NotFound}></Route> */}
         </Switch>
       </div>
     </Router>
