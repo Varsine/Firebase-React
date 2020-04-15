@@ -1,3 +1,5 @@
+import userImg from "../../help component/image/user.webp"
+
 export const createUser = (user) => {
   return (dispatch, getState, {getFirebase, getFirestore}) => {
     const firestore = getFirestore()
@@ -5,8 +7,7 @@ export const createUser = (user) => {
       .collection("client")
       .add({
         ...user,
-        photoURL:
-          "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+        photoURL: userImg,
         authorBalance: 0.0,
         authorTime: new Date(),
       })

@@ -1,12 +1,10 @@
 import React from "react"
+import notFound from "../help component/image/not-found.gif"
 
 const NotFound = () => {
   return (
     <div className="not-found">
-      <img
-        src="https://kfg6bckb.media.zestyio.com/yalantis-interactive-404.gif"
-        alt=""
-      />
+      <img src={notFound} alt="" />
     </div>
   )
 }
