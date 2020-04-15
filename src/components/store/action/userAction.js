@@ -7,7 +7,7 @@ export const createUser = (user) => {
       .collection("client")
       .add({
         ...user,
-        photoURL: userImg,
+        // photoURL: userImg,
         authorBalance: 0.0,
         authorTime: new Date(),
       })

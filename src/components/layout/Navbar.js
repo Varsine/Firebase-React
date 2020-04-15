@@ -16,7 +16,8 @@ const Navbar = (props) => {
     <nav className="nav-wrapper gray darken-3">
       <div className="container">
         <Link to="/" className="brand-logo">
-          <img className="home-img" src={logo} alt="home-img" />
+          logo
+          {/* <img className="home-img" src={logo} alt="home-img" /> */}
         </Link>
         {links}
       </div>
