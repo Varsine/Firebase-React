@@ -1,4 +1,4 @@
-import userImg from "../../help component/image/user.webp"
+//import userImg from "../../help component/image/user.webp"
 
 export const createUser = (user) => {
   return (dispatch, getState, {getFirebase, getFirestore}) => {
