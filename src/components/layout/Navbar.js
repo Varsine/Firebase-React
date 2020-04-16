@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 import SignedInLinks from "./SignedInLink"
 import SignedOutLinks from "./SignedOutLink"
 import {connect} from "react-redux"
-//import logo from "../help component/image/firebase.png"
+import logo from "../help component/image/firebase.png"
 
 const Navbar = (props) => {
   const {auth, profile} = props
@@ -16,11 +16,7 @@ const Navbar = (props) => {
     <nav className="nav-wrapper gray darken-3">
       <div className="container">
         <Link to="/" className="brand-logo">
-          <img
-            className="home-img"
-            src="../help component/image/firebase.png"
-            alt="home-img"
-          />
+          <img className="home-img" src={logo} alt="home-img" />
         </Link>
         {links}
       </div>

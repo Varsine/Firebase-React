@@ -5,8 +5,8 @@ import {firestoreConnect} from "react-redux-firebase"
 import Loading from "../help component/loading/Loading"
 import {Link} from "react-router-dom"
 import {removeUser} from "../store/action/authAction"
-// import close from "../help component/image/Close-icon.png"
-// import update from "../help component/image/Update-icon.png"
+import close from "../help component/image/Close-icon.png"
+import update from "../help component/image/Update-icon.png"
 
 class UsersList extends React.Component {
   render() {
@@ -43,10 +43,7 @@ class UsersList extends React.Component {
                   <td>
                     <Link to={"/update/" + client.id}>
                       <button className="update-icon">
-                        <img
-                          alt="update"
-                          src="../help component/image/Update-icon.png"
-                        />
+                        <img alt="update" src={update} />
                       </button>
                     </Link>
                   </td>
@@ -55,10 +52,7 @@ class UsersList extends React.Component {
                       onClick={() => this.props.removeUser(client.id)}
                       className="close-icon"
                     >
-                      <img
-                        alt="close"
-                        src="../help component/image/Close-icon.png"
-                      />
+                      <img alt="close" src={close} />
                     </button>
                   </td>
                 </tr>
