@@ -1,26 +1,28 @@
 {
   "files": {
     "main.css": "/firebase-react/static/css/main.f95f2eab.chunk.css",
-    "main.js": "/firebase-react/static/js/main.48d9ff0a.chunk.js",
-    "main.js.map": "/firebase-react/static/js/main.48d9ff0a.chunk.js.map",
+    "main.js": "/firebase-react/static/js/main.eee2362e.chunk.js",
+    "main.js.map": "/firebase-react/static/js/main.eee2362e.chunk.js.map",
     "runtime-main.js": "/firebase-react/static/js/runtime-main.583fda1e.js",
     "runtime-main.js.map": "/firebase-react/static/js/runtime-main.583fda1e.js.map",
     "static/css/2.5a510433.chunk.css": "/firebase-react/static/css/2.5a510433.chunk.css",
-    "static/js/2.7880aefd.chunk.js": "/firebase-react/static/js/2.7880aefd.chunk.js",
-    "static/js/2.7880aefd.chunk.js.map": "/firebase-react/static/js/2.7880aefd.chunk.js.map",
+    "static/js/2.aa9d3f1a.chunk.js": "/firebase-react/static/js/2.aa9d3f1a.chunk.js",
+    "static/js/2.aa9d3f1a.chunk.js.map": "/firebase-react/static/js/2.aa9d3f1a.chunk.js.map",
     "index.html": "/firebase-react/index.html",
-    "precache-manifest.9fe2d5f4887647c2cd30ee4698a4a495.js": "/firebase-react/precache-manifest.9fe2d5f4887647c2cd30ee4698a4a495.js",
+    "precache-manifest.071ede106aa9c434bef5f241c4fc0904.js": "/firebase-react/precache-manifest.071ede106aa9c434bef5f241c4fc0904.js",
     "service-worker.js": "/firebase-react/service-worker.js",
     "static/css/2.5a510433.chunk.css.map": "/firebase-react/static/css/2.5a510433.chunk.css.map",
     "static/css/main.f95f2eab.chunk.css.map": "/firebase-react/static/css/main.f95f2eab.chunk.css.map",
-    "static/js/2.7880aefd.chunk.js.LICENSE.txt": "/firebase-react/static/js/2.7880aefd.chunk.js.LICENSE.txt",
-    "static/media/loading.gif": "/firebase-react/static/media/loading.9df66046.gif"
+    "static/js/2.aa9d3f1a.chunk.js.LICENSE.txt": "/firebase-react/static/js/2.aa9d3f1a.chunk.js.LICENSE.txt",
+    "static/media/firebase.png": "/firebase-react/static/media/firebase.ae20121b.png",
+    "static/media/loading.gif": "/firebase-react/static/media/loading.9df66046.gif",
+    "static/media/user.webp": "/firebase-react/static/media/user.2068fab4.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.583fda1e.js",
     "static/css/2.5a510433.chunk.css",
-    "static/js/2.7880aefd.chunk.js",
+    "static/js/2.aa9d3f1a.chunk.js",
     "static/css/main.f95f2eab.chunk.css",
-    "static/js/main.48d9ff0a.chunk.js"
+    "static/js/main.eee2362e.chunk.js"
   ]
 }
