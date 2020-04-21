@@ -1,4 +1,4 @@
-import userImg from "../../help component/image/user.webp"
+// import userImg from "../../help component/image/user.webp"
 
 export const createUser = (user) => {
   return (dispatch, getState, {getFirebase, getFirestore}) => {
@@ -7,7 +7,7 @@ export const createUser = (user) => {
       .collection("client")
       .add({
         ...user,
-        photoURL: userImg,
+        // photoURL: userImg,
         authorBalance: 0.0,
         authorTime: new Date(),
       })
