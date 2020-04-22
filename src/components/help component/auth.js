@@ -1,6 +1,6 @@
 import locationHelperBuilder from "redux-auth-wrapper/history4/locationHelper"
 import {connectedRouterRedirect} from "redux-auth-wrapper/history4/redirect"
-import Loading from "./loading/Loading"
+import Loading from "./Loading"
 
 const locationHelper = locationHelperBuilder({})
 

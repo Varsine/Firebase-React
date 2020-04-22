@@ -14,7 +14,7 @@ class SignIn extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault()
     this.props.singIn(this.state)
-    this.props.history.push("/")
+    this.props.history.push("/dashboard")
   }
 
   render() {
@@ -24,9 +24,19 @@ class SignIn extends React.Component {
         <h5 className="grey-text text-darken-3">Sign In</h5>
         <form className="white" onSubmit={this.handleSubmit}>
           <label htmlFor="email">Email</label>
-          <input type="email" id="email" onChange={this.handleChange} />
+          <input
+            type="email"
+            id="email"
+            onChange={this.handleChange}
+            required
+          />
           <label htmlFor="password">Password</label>
-          <input type="password" id="password" onChange={this.handleChange} />
+          <input
+            type="password"
+            id="password"
+            onChange={this.handleChange}
+            required
+          />
           <button className="btn pink lighten-1 z-depth-0">Log in</button>
           <div className="red-text center">
             {authError ? <p>{authError}</p> : null}
