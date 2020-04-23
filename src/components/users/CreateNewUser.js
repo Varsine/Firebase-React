@@ -49,7 +49,7 @@ class CreateNewUser extends React.Component {
     const isValid = this.validate()
     if (isValid) {
       this.props.createUser(this.state)
-      this.props.history.push("/")
+      this.props.history.push("/dashboard")
     }
   }
   render() {
