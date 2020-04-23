@@ -38,7 +38,7 @@ class UpdateUser extends React.Component {
 
     const isValid = this.validate()
     if (isValid) {
-      this.props.history.push("/")
+      this.props.history.push("/dashboard")
       firestore
         .collection("client")
         .doc(this.props.match.params.id)
