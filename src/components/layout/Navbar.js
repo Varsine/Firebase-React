@@ -15,7 +15,7 @@ const Navbar = (props) => {
   return (
     <nav className="nav-wrapper gray darken-3">
       <div className="container">
-        <Link to="/" className="brand-logo">
+        <Link to="/Firebase-React/" className="brand-logo">
           <img className="home-img" src={logo} alt="home-img" />
         </Link>
         {links}
