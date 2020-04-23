@@ -1,3 +1,51 @@
+.home-page {
+  width: 100%;
+  position: relative;
+}
+.home-page img {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+.home-header {
+  position: absolute;
+}
+.home-header img {
+  width: 70%;
+}
+.home-header h4 {
+  margin-left: 80%;
+  color: wheat;
+  font-weight: 600;
+}
+.enter-firebase {
+  position: absolute;
+  width: 20%;
+  height: 300px;
+  background-color: white;
+  margin-top: 20%;
+  margin-left: 40%;
+  border-radius: 3%;
+  box-shadow: 5px 7px #9c9a9a;
+}
+.enter-firebase button {
+  border: none;
+  background-color: white;
+  margin-left: 42%;
+  margin-top: 25%;
+  font-size: 50px;
+  color: rgb(57, 57, 180);
+  font-weight: 600;
+}
+.enter-firebase button:hover {
+  color: rgb(126, 126, 243);
+}
+.enter-firebase p {
+  color: rgb(57, 57, 180);
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
 .user-profile {
   background-color: #f2e6ff;
 }

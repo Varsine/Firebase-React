@@ -15,6 +15,7 @@ import {
   UserIsNotAuthenticated,
 } from "./components/help component/auth"
 import NotFound from "./components/help component/NotFound"
+import Home from "./components/homePage/Home"
 
 function App() {
   return (
@@ -44,6 +45,10 @@ function App() {
           ></Route>
           <Route
             exact={true}
+            path="/"
+            component={UserIsNotAuthenticated(Home)}
+          ></Route>
+          <Route
             path="/signin"
             component={UserIsNotAuthenticated(SignIn)}
           ></Route>
