@@ -10,7 +10,7 @@ const SignedInLinks = (props) => {
         <NavLink to="/create"> New User</NavLink>
       </li>
       <li>
-        <NavLink to="/" onClick={props.signOut}>
+        <NavLink to="/Firebase-React/" onClick={props.signOut}>
           Log Out
         </NavLink>
       </li>
